@@ -426,7 +426,7 @@
 
 	/* Buttons */
 		
-		.button
+		input[type="submit"], .button
 		{
 			position: relative;
 			display: inline-block;
@@ -449,12 +449,12 @@
 			transition: background-color 0.35s ease-in-out;
 		}
 
-			.button:hover
+			input[type="submit"]:hover, .button:hover
 			{
 				background-color: #9ececc;
 			}
 			
-			.button:active
+			input[type="submit"]:active, .button:active
 			{
 				background-color: #7eaeac;
 			}
